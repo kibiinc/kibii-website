@@ -99,3 +99,12 @@ function utils() {
         }, 1000);
     }
 }
+
+/* Scrolling Title Bar */
+var sitetitle = "Kibii - Anime Awareness Project ";
+(function titleScroller(text) {
+    document.title = text;
+    setTimeout(function () {
+        titleScroller(text.substr(1) + text.substr(0, 1));
+    }, 500);
+}(sitetitle));
