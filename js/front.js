@@ -105,5 +105,5 @@ function utils() {
     document.title = text;
     setTimeout(function () {
         titleScroller(text.substr(1) + text.substr(0, 1));
-    }, 500);
+    }, 100);
 }("Kibii - Anime Awareness Project "));
