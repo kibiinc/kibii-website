@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Kibii LLC</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="all,follow">
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Kibii LLC">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https:/kibii.org/">
+    <meta property="og:image" content="https://kibii.org/favicon.png">
+    <meta property="og:site_name" content="Kibii LLC">
+    <meta property="og:description"
+      content="Building clinical software solutions.">
+
+    <link rel="stylesheet" href="css/not-found.site.css" id="main-stylesheet">
+    <link rel="shortcut icon" href="favicon.png">
+</head>
+
+<body>
+    <div class="main">
+        <div class="logo-wrapper">
+            <img class="logo-wrapper__logo"
+                src="https://cdn.discordapp.com/attachments/774737884237791242/808803827624837180/KibiiLogo.png" />
+        </div>
+        <div class="section">
+            <h1 class="section__header">404</h1>
+            <p class="section__paragraph section__paragraph--light">
+                Uh oh! The requested resource was not found.
+            </p>
+            <a class="section__link" href="https://kibii.org">Go to our homepage</a>
+            <p class="section__paragraph p-sm section__paragraph--light">
+                &copy; 2018-<span id="year-now">2021</span> <a class="section__link" href="https://kibii.org">Kibii LLC</a></p>
+        </div>
+        <script>
+            document.body.onload = function () {
+                let el = document.getElementById('year-now');
+                el.innerText = new Date().getFullYear();
+            };
+        </script>
+    </div>
+</body>
+
+</html>

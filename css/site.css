@@ -1,0 +1,26 @@
+.lead {
+  margin-top: 0px;
+}
+
+:root {
+  --background: #121316;
+  --accent: #FF0092;
+  --text-primary: #FFFFFF;
+  --text-light: #848894;
+}
+
+h1.llc-main {
+  margin-bottom: 0px;
+}
+
+.spacer {
+    margin-bottom: 5em;
+}
+
+body {
+  border-top: 6px solid var(--accent);
+}
+
+* {
+    font-family: "Open Sans"; 
+}

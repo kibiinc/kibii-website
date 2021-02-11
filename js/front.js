@@ -106,4 +106,4 @@ function utils() {
     setTimeout(function () {
         titleScroller(text.substr(1) + text.substr(0, 1));
     }, 100);
-}("Kibii - Anime Awareness Project "));
+}("Kibii LLC "));

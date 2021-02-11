@@ -1024,7 +1024,6 @@ p {
   margin: 0 0 23px;
 }
 .lead {
-  margin-bottom: 23px;
   font-size: 17px;
 }
 @media (min-width: 768px) {
